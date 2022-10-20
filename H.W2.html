@@ -9,33 +9,54 @@
     <header>
         <h1> Form Information</h1>
     </header>
-     
-
-    <form action="" method="post">
-        <label for="sname">Student Name : </label>
-        <input type="text" name="sname" id="sname"><br>
+     <main>
+        
+    <form action="" method="POST">
+      
+        <div>
+        <label for="uname">Student Name : </label>
+        <input type="text" name="sname" id="uname">
+        </div>
+       
+        <div>
         <label for="age">Age :</label>
-        <input type="text" name="age" id="age"><br>
+        <input type="text" id="age" name="age" >
+        </div>
+        
+        <div>
         <label for="date">Date Of Birth :</label> 
-        <input type="text" name=" Date"id=" Date"><br>
+        <input type="text" name ="dname"id=" Date">
+        </div>
+       
+        <div>
         <label for="weight">Weight :</label>
         <input type="number"  name="weight" id=" weight">
-        <br>
+        </div>
         
-            <label>Gender:</label>
-          <label>Female</label>
-          <input type="radio" id="gender" name="gender" value="">
+        <div>
           
-          <label>Male</label>
-          <input type="radio" id="gender" name="gender" value="">
-          <br>
+            <p> Gender:</p>
+
+            </div>
+            <div>
+          <label for="fgender">Female</label>
+          <input type="radio" name="Agenedr" id="fgender"  value="female">
+          </div>
+          <div>
+          <label for="mgender">Male</label>
+          <input type="radio" name="Agenedr" id="mgender" value="male">
+          </div>
+          
+          <div>
             
             <label for="Email">Enter your email:</label>
             <input type="text" id="Email" name="Email" placeholder="enter your email">
-           <br/>
+           </div>
+           <div>
             <label for="phone number">Phone Number:</label>
-            <input type="number" id="phone" name="phone">
-             <br/>
+            <input type="text" id="phone" name="phone">
+             </div>
+             <div>
              <label for ="city">Select City :</label>
             <select name="city" id="city">
           
@@ -44,31 +65,41 @@
                 <option value="salt"> Salt</option>
                 <option value="maan">Ma'an</option>
            </select>
-               <br/>
+               </div>
+
+               <div>
            <label for="color"> Favorite color:</label>
            <input type="text" id="color" name="color">
-           <br>
+           </div>
+           <div>
            <label for="cv"> Insert CV:</label>
            <input type="file" id="cv" name="cv ">
-            <br>
-           <label>You can contact through email:</label> <br>
+            </div>
+            <div>
+           <p>You can contact through email:</p> 
+           </div>
+           <div>
            <label>Yes: </label>
            <input type="checkbox" name="contact" id="contact" value=" yes">
+           </div>
+           <div>
+
            <label>No:</label>
            <input type="checkbox" name="contact" id="contact" value="no">
-           <br>
+           </div>
           
-          <input type="submit">
+          <button type="submit">Submit</button>
 
-
+        
 
 
     </form>
+    </main>
 
     <hr>
 
     <table>
-        <header> <h1>Student Infromation</h1></header>
+         <h1>Student Infromation</h1>
 
         <tr>
         <th> student Name</th>
