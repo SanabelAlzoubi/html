@@ -1,0 +1,37 @@
+#htu-hero {
+
+    background-image: url("../Bootstrap/GettyImages-577674005_492115_zfpgiw.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#htu-hero>div>div {
+    background-color: rgb(240, 240, 240 , .9);
+}
+#htu-hero button{
+    margin-left: -15%;
+}
+
+
+
+#htu-search button:hover{
+    background: transparent;
+    color: black;
+}
+
+main{
+    margin: 4rem 10rem ;
+}
+
+
+#htu-books-wrapper .card{
+    width: 90%;
+}
+
+#htu-foot{
+   
+   
+    color: black;
+    background-color: rgb(100, 97, 97);
+
+}
